@@ -1,8 +1,12 @@
+const User = require('../models/userModel')
 
-
-exports.getComands = (req, res) =>{
+exports.getComands = async(req, res) =>{
     console.log('method works');
-    // res.status(200).json({
-    //     status: "im good"
-    // });
+//    const user = User.find();
+//     res.status(200).json({
+//         status: "im good",
+//         data:{
+//             data: user
+//         }
+//     });
 }
