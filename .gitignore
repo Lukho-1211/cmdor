@@ -6,6 +6,7 @@
 .pnp.js
 /public/js/bundle.js
 /public/js/bundle.map.js.map
+/config.env
 
 # testing
 /coverage
