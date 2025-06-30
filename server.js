@@ -6,6 +6,8 @@ const SaveComandRouter = require('./routes/SaveComandRouter');
 
 
 const app = express();
+app.use(express.json({ limit: '10kb'}));
+
 dotenv.config({path: './config.env'});
 
 const port = process.env.PORT || 3000;
